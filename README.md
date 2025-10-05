@@ -15,16 +15,17 @@ A simple and elegant SwiftUI + SwiftData demo project to manage your favorite bo
 * Frameworks: SwiftUI, SwiftData
 * Architecture: MVVM-style simple structure
 * Minimum iOS: iOS 17+
- 🏗️ Project Structure
 
-📁 SwiftDataBookworm
-│
-├── ContentView.swift          // Main screen showing book list
-├── DetailView.swift           // Detailed book info and delete option
-├── AddBookView.swift          // Form for adding a new book
-├── EmojiRatingView.swift      // Shows emoji based on rating
-├── RatingView.swift           // Custom rating star view
-└── Book.swift                 // SwiftData model for book entity
+
+🏗️ Project Structure
+
+* ContentView.swift – Main screen displaying the list of books.
+* DetailView.swift – Shows detailed information about a book with delete functionality.
+* AddBookView.swift – Form for adding a new book with title, author, genre, review, and rating.
+* EmojiRatingView.swift – Displays an emoji based on the book rating.
+* RatingView.swift – Custom star rating view with interactive buttons.
+* Book.swift – SwiftData model defining the Book entity.
+
 
  ⚙️ How It Works
 1. Add a new book → Enter title, author, genre, review, and rating.
